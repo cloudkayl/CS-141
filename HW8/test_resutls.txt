@@ -1,0 +1,44 @@
+
+
+
+Size of list	Time for Insertion Sort (in seconds)	Time for Merge Sort (in seconds)	Time for Quick Sort (in seconds)
+    300	               0.0090000629425	                        0.00200009346008	                 0.00100016593933
+    3000	       0.947999954224	                        0.0239999294281	                         0.0119998455048
+    30000	       96.748000145	                        0.305000066757	                         0.147000074387
+    300000	            NA	                                3.84700012207	                         1.96600008011
+
+
+
+
+
+
+Output:
+>>> 
+What is the timeout (in seconds)? 1
+Initial list size: 300
+What is the min possible value of an item in the list: 1
+What is the max possible value of an item in the list: 1000000000
+**************************
+Size=  300
+**************************
+Insertion Sort Time:  0.0090000629425
+Merge Sort Time:  0.00200009346008
+Quick Sort Time:  0.00100016593933
+**************************
+Size=  3000
+**************************
+Insertion Sort Time:  0.947999954224
+Merge Sort Time:  0.0239999294281
+Quick Sort Time:  0.0119998455048
+**************************
+Size=  30000
+**************************
+Insertion Sort Time:  96.748000145
+Merge Sort Time:  0.305000066757
+Quick Sort Time:  0.147000074387
+**************************
+Size=  300000
+**************************
+Merge Sort Time:  3.84700012207
+Quick Sort Time:  1.96600008011
+>>> 

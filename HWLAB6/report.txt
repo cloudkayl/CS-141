@@ -1,0 +1,42 @@
+1. The role of the pivot value is to assist with splitting the list. The actual position where the pivot value belongs in the final sorted list, 
+   commonly called the split point, will be used to divide the list for subsequent calls to the quick sort. Yes, we need to choose middle term as the pivot
+   for the program to run faster. Cause when the list is partially sorted, and if we choose first element, rest of the list is larger than the pivot and takes time
+   for the partition. Similarly, for the last element as pivot, it takes time for partition. So the algorithm would have taken more time if the pivot was the first item. 
+
+
+
+2. test cases: (as used in program)
+   # testCase 1: k is 0
+
+   # testCase 2: k is negative i.e. less than 0
+
+   # testCase 3: k is in float type
+
+   # testCase 4: k is a random number
+
+   # testCase 5: k is a random number
+
+   # testCase 6: k is more than possible index values
+
+   # testCase 7: k is the length of list
+
+   # testCase 8: k is a string
+
+
+
+3. quickSelect Program: For k=0, time = 0.016552149348763034
+                        For k=10, time = 0.015122322172992381
+                        For k=299, time = 0.015228225316618063
+                        For k=5000, time = 0.018932679554333705
+
+   median Program: t1 = 0.06093230336912123
+                   t2 = 0.059894021403752905
+                   t3 = 0.05926695622508380 
+                   t4 = 0.060756876024336715
+                   t5 = 0.060536446580352454
+Apparently, quickSelect is faster
+
+
+
+
+

@@ -1,0 +1,107 @@
+import turtle
+
+def triangle():
+  turtle.down()
+  turtle.forward(50)
+  turtle.left(120)
+  turtle.forward(50)
+  turtle.left(120)
+  turtle.forward(50)
+  
+def changePosition():
+  turtle.up()
+  turtle.left(30)
+  turtle.forward(50)
+  turtle.right(90)
+  
+def hexagon():
+  turtle.down()
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
+  
+def square():
+    turtle.down()
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(50)
+def print():
+  turtle.left(60)
+  turtle.up()
+  turtle.forward(70)
+  turtle.left(90)
+  turtle.forward(300)
+  turtle.down()
+  turtle.write("Thank You", font=("Algerian",80))
+  turtle.left(90)
+  turtle.up()
+  turtle.forward(450)
+  turtle.up()
+  turtle.right(90)
+  turtle.forward(80)
+  turtle.write("::AYUSH ROUT", font=("Algerian",80))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+triangle()
+changePosition()
+hexagon()
+changePosition()
+triangle()
+changePosition()
+turtle.color("Black", "Green")
+turtle.begin_fill()
+square()
+turtle.end_fill()
+changePosition()
+turtle.color("Black", "Red")
+turtle.begin_fill()
+hexagon()
+turtle.end_fill()
+changePosition()
+triangle()
+changePosition()
+turtle.color("Black", "Blue")
+turtle.begin_fill()
+square()
+turtle.end_fill()
+changePosition()
+turtle.up()
+turtle.forward(70)
+triangle()
+changePosition()
+turtle.left(120)
+turtle.up()
+turtle.forward(30)
+turtle.down()
+turtle.color("Black", "Green")
+turtle.begin_fill()
+hexagon()
+turtle.end_fill()
+turtle.up()
+turtle.forward(50)
+turtle.down()
+square()
+triangle()
+print()
+input("Press Enter to close")
